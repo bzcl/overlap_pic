@@ -3,8 +3,8 @@ import add
 import cv2
 import random
 
-bgpath='/home/yzzc/bzc/add/bg'
-repath='/home/yzzc/bzc/add/result'
+bgpath='./bg'
+repath='./result'
 filenames=os.listdir(bgpath)
 
 for filename in filenames:                
